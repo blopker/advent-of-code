@@ -14,13 +14,9 @@ class Point {
     return 'Point($x, $y)';
   }
 
-  int _hashCode = 0;
   @override
   int get hashCode {
-    if (_hashCode == 0) {
-      _hashCode = toString().hashCode;
-    }
-    return _hashCode;
+    return toString().hashCode;
   }
 
   @override
