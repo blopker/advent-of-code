@@ -1,6 +1,5 @@
 import 'dart:io';
 import './lib.dart';
-import 'package:dijkstra/dijkstra.dart';
 
 var day = '12';
 var visits = 1;
